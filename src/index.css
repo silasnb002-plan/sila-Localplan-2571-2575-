@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Sarabun', -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #1e293b;
+  background-color: #f8fafc;
+}
+
+h1, h2, h3, h4, .font-heading {
+  font-family: 'Prompt', 'Sarabun', sans-serif;
+}
+
+@media print {
+  body {
+    background-color: white;
+    font-size: 11pt;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+  }
+  th, td {
+    border: 1px solid #333 !important;
+    padding: 4px 6px !important;
+  }
+}

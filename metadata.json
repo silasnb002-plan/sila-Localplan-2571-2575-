@@ -1,0 +1,6 @@
+{
+  "name": "ระบบจัดทำแผนพัฒนาท้องถิ่น (แบบ ผ.02)",
+  "description": "ระบบจัดการตารางรายละเอียดโครงการพัฒนา แบบ ผ.02 แผนพัฒนาท้องถิ่น พ.ศ. 2571 - 2575 พร้อม Data Mapping ที่ถูกต้อง",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
